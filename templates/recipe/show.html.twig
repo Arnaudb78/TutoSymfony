@@ -3,6 +3,9 @@
 {% block title %}Toutes les recettes{% endblock %}
 
 {% block body %}
-    {{slug}}
-    <h1>{{ person.firstname }}</h1>
+    <h1>{{ recipe.title }}</h1>
+
+    <p>
+        {{ recipe.content}}
+    </p>
 {% endblock %}
